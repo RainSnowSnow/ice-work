@@ -1,0 +1,84 @@
+{
+  "name": "vue-materials",
+  "type": "vue",
+  "blocks": [
+    {
+      "name": "test-block",
+      "title": "test",
+      "source": {
+        "type": "npm",
+        "npm": "liqiuyu",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "categories": [
+        "表格",
+        "模态框"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "ceshi",
+      "publishTime": "2018-10-30T02:28:01.531Z",
+      "updateTime": "2018-10-30T02:28:04.237Z"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "example-layout",
+      "title": "示例区块",
+      "source": {
+        "type": "npm",
+        "npm": "example-layout",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "vue": "^2.5.16"
+      },
+      "categories": [
+        "其他"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "publishTime": "2018-04-16T09:38:21.481Z",
+      "updateTime": "2018-04-16T09:38:24.246Z"
+    }
+  ],
+  "scaffolds": [
+    {
+      "name": "ice-app",
+      "title": "示例模板",
+      "source": {
+        "type": "npm",
+        "npm": "ice-app",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com"
+      },
+      "dependencies": {
+        "vue": "^2.5.13",
+        "vue-router": "^3.0.1"
+      },
+      "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+        "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
+        "@vue/cli-service": "^3.0.0-beta.6",
+        "@vue/eslint-config-airbnb": "^3.0.0-beta.6",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.6",
+        "vue-template-compiler": "^2.5.13"
+      },
+      "categories": [],
+      "features": {},
+      "publishTime": "2018-08-30T09:21:19.146Z",
+      "updateTime": "2018-08-30T09:21:24.188Z"
+    }
+  ]
+}
